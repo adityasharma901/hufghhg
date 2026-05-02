@@ -190,7 +190,7 @@ app.post('/buy-number', async (req, res) => {
     let apiUrl = '', requiredBalance = 0;
     if(server === 'uk') { apiUrl = 'https://5sim.net/v1/user/buy/activation/england/virtual51/microsoft'; requiredBalance = 8; }
     else if (server === 'nl') { apiUrl = 'https://5sim.net/v1/user/buy/activation/netherlands/virtual51/microsoft'; requiredBalance = 8; }
-    else if (server === 'pl') { apiUrl = 'https://5sim.net/v1/user/buy/activation/poland/virtual58/microsoft'; requiredBalance = 15; }
+    else if (server === 'pl') { apiUrl = 'https://5sim.net/v1/user/buy/activation/poland/virtual53/microsoft'; requiredBalance = 15; }
     else if (server === 'hk') { apiUrl = 'https://5sim.net/v1/user/buy/activation/hongkong/virtual54/microsoft'; requiredBalance = 15; }
     else return res.json({ success: false, message: "Invalid Server" });
 
